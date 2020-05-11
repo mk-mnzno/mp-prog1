@@ -1,0 +1,32 @@
+!
+!  sample GLE file for plotting several spirographs
+!
+
+size 10 10
+
+begin graph
+
+   scale auto
+  
+   title "SHAZAM's Spirograph"
+
+
+!
+!  should be numbered consecutively as d1, d2, d3....
+!
+
+   data "shazam_output1.txt"
+   d1 line lwidth 0.1  color crimson
+
+   data "shazam_output2.txt"
+   d2 line  lwidth 0.1 color purple
+
+!
+!  remove the comment symbols below to see d3 plot
+!
+
+   data "shazam_output3.txt"
+   d3 line lwidth 0.1 color red
+
+  
+end graph

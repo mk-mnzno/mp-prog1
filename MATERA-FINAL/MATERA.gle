@@ -1,0 +1,42 @@
+size 12.0 12.0
+
+begin graph
+   scale auto
+
+   title "MATERA'S SPIROGRAPH"
+
+   data "MATERA_output1.txt"
+   d1 line lwidth 0.05 color navajowhite
+
+   data "MATERA_output3.txt"
+   d2 line lwidth 0.02 color crimson
+
+   data "MATERA_output5.txt"
+   d3 line lwidth 0.02 color midnightblue
+
+   data "MATERA_output6.txt"
+   d4 line lwidth 0.02 color moccasin
+
+   data "MATERA_output7.txt"
+   d5 line lwidth 0.02 color gold
+
+   data "MATERA_output8.txt"
+   d6 line lwidth 0.01 color darkolivegreen
+
+   data "MATERA_output9.txt"
+   d7 line lwidth 0.01 color darkkhaki
+
+   data "MATERA_output10.txt"
+   d8 line lwidth 0.01 color palegoldenrod
+
+   data "MATERA_output2.txt"
+   d9 line lwidth 0.02 color peru
+
+   data "MATERA_output4.txt"
+   d10 line lwidth 0.02 color palegoldenrod
+
+
+
+
+end graph
+

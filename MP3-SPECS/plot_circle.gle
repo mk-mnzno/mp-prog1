@@ -1,0 +1,19 @@
+!
+!  This is a sample GLE script for plotting a circle
+!
+!  note: Comments in GLE starts with an exlamation mark.
+!  
+!  
+
+
+size 10 10
+
+begin graph
+   scale auto
+
+   title "SHAZAM's Circle"  
+
+   data "circle.txt"
+   d1 line lwidth 0.01 color red
+
+end graph

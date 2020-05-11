@@ -1,0 +1,34 @@
+!
+!  This is a sample GLE script for plotting one spirograph
+!
+!  note: Comments in GLE starts with an exlamation mark.
+!  
+!  
+
+
+size 10 10
+
+begin graph
+   scale auto
+
+   title "SHAZAM's Spirograph"  
+
+   data "shazam_output1.txt"
+   d1 line lwidth 0.01 color red
+
+!
+!  if you want to show shazam_output2.txt, comment out the two lines
+!     data "shazam_output1.txt 
+!     d1 line lwidth 0.01 color red
+
+
+!   afterwards, remove the comments for the next two commands below
+
+!   data "shazam_output2.txt"
+!   d1 line  lwidth 0.1 color green
+
+!   data "shazam_output3.txt"
+!   d1 line lwidth 0.2 color blue
+
+  
+end graph
